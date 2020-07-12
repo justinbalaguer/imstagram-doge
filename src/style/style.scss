@@ -1,0 +1,113 @@
+html, body {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  .nav-top {
+    position: fixed;
+    background-color: white;
+    -webkit-box-shadow: 0 0 1px #333333;
+    -moz-box-shadow: 0 0 1px #333333;
+    box-shadow: 0 0 1px #333333;
+    border-bottom: 1px solid #cacaca;
+    width: 100%;
+    .nav-container {
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      b {
+        font-size: 1.5rem;
+        display: flex;
+        align-content: center;
+      }
+    }
+    .icon {
+      font-size: 1.5rem;
+    }
+  }
+
+  nav {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    -webkit-box-shadow: 1px 0 0 #333333;
+    -moz-box-shadow: 1px 0 0 #333333;
+    box-shadow: 1px 0 0 #333333;
+    border-top: 1px solid #cacaca;
+    width: 100%;
+    .icon-container {
+      padding: 0.7rem 1rem 0.7rem 1rem;
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      .profile {
+        width: 1.5rem;
+        height: auto;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.content {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.hero {
+  padding-top: 2rem;
+  .name-container {
+    text-align: left;
+    padding: 0 1rem 0 1rem;
+    .profile-container {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 1rem;
+      .left {
+        display: flex;
+        align-items: center;
+        img {
+          border-radius: 50%;
+          height: 2rem;
+          width: 2rem;
+        }
+        span {
+          margin-left: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .icons {
+    text-align: left;
+    padding: 1rem 1rem 0.3rem 1rem;
+    display: flex;
+      justify-content: space-between;
+    .left {
+      .icon {
+        padding: 0rem 1rem 0 0rem;
+        font-size: 1.5rem;
+      }
+    }
+    .right {
+      .icon {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  
+  .caption-container {
+    font-size: 12px;
+    text-align: left;
+    padding: 0 1rem 0 1rem;
+    .caption {
+      margin-left: 0.5rem;
+    }
+  }
+}
+
+footer {
+  height: 4rem;
+}
